@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MessageDS" targetNamespace="http://tempuri.org/MessageDS.xsd" xmlns:mstns="http://tempuri.org/MessageDS.xsd" xmlns="http://tempuri.org/MessageDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="Avionte_ParallelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Avionte_ParallelConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.Avionte_ParallelConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MessageDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MessageDS" msprop:Generator_UserDSName="MessageDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StaffingActionFK" msprop:Generator_TableClassName="StaffingActionFKDataTable" msprop:Generator_TableVarName="tableStaffingActionFK" msprop:Generator_TablePropName="StaffingActionFK" msprop:Generator_RowDeletingName="StaffingActionFKRowDeleting" msprop:Generator_RowChangingName="StaffingActionFKRowChanging" msprop:Generator_RowEvHandlerName="StaffingActionFKRowChangeEventHandler" msprop:Generator_RowDeletedName="StaffingActionFKRowDeleted" msprop:Generator_UserTableName="StaffingActionFK" msprop:Generator_RowChangedName="StaffingActionFKRowChanged" msprop:Generator_RowEvArgName="StaffingActionFKRowChangeEvent" msprop:Generator_RowClassName="StaffingActionFKRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StaffingActionFKGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnStaffingActionFKGUID" msprop:Generator_ColumnPropNameInRow="StaffingActionFKGUID" msprop:Generator_ColumnPropNameInTable="StaffingActionFKGUIDColumn" msprop:Generator_UserColumnName="StaffingActionFKGUID" type="xs:string" />
+              <xs:element name="StaffingActionGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnStaffingActionGUID" msprop:Generator_ColumnPropNameInRow="StaffingActionGUID" msprop:Generator_ColumnPropNameInTable="StaffingActionGUIDColumn" msprop:Generator_UserColumnName="StaffingActionGUID" type="xs:string" />
+              <xs:element name="FKGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnFKGUID" msprop:Generator_ColumnPropNameInRow="FKGUID" msprop:Generator_ColumnPropNameInTable="FKGUIDColumn" msprop:Generator_UserColumnName="FKGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="StaffingActionOrigin" msprop:Generator_ColumnVarNameInTable="columnStaffingActionOrigin" msprop:Generator_ColumnPropNameInRow="StaffingActionOrigin" msprop:Generator_ColumnPropNameInTable="StaffingActionOriginColumn" msprop:Generator_UserColumnName="StaffingActionOrigin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffingActionOriginValue" msprop:Generator_ColumnVarNameInTable="columnStaffingActionOriginValue" msprop:Generator_ColumnPropNameInRow="StaffingActionOriginValue" msprop:Generator_ColumnPropNameInTable="StaffingActionOriginValueColumn" msprop:Generator_UserColumnName="StaffingActionOriginValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffingActionOriginValueID" msprop:Generator_ColumnVarNameInTable="columnStaffingActionOriginValueID" msprop:Generator_ColumnPropNameInRow="StaffingActionOriginValueID" msprop:Generator_ColumnPropNameInTable="StaffingActionOriginValueIDColumn" msprop:Generator_UserColumnName="StaffingActionOriginValueID" type="xs:int" minOccurs="0" />
+              <xs:element name="ContactMethod" msprop:Generator_ColumnVarNameInTable="columnContactMethod" msprop:Generator_ColumnPropNameInRow="ContactMethod" msprop:Generator_ColumnPropNameInTable="ContactMethodColumn" msprop:Generator_UserColumnName="ContactMethod" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnUserGUID" msprop:Generator_ColumnPropNameInRow="UserGUID" msprop:Generator_ColumnPropNameInTable="UserGUIDColumn" msprop:Generator_UserColumnName="UserGUID" type="xs:string" />
+              <xs:element name="DateEntered" msprop:Generator_ColumnVarNameInTable="columnDateEntered" msprop:Generator_ColumnPropNameInRow="DateEntered" msprop:Generator_ColumnPropNameInTable="DateEnteredColumn" msprop:Generator_UserColumnName="DateEntered" type="xs:dateTime" />
+              <xs:element name="ShowOnWebPortal" msprop:Generator_ColumnVarNameInTable="columnShowOnWebPortal" msprop:Generator_ColumnPropNameInRow="ShowOnWebPortal" msprop:Generator_ColumnPropNameInTable="ShowOnWebPortalColumn" msprop:Generator_UserColumnName="ShowOnWebPortal" type="xs:boolean" />
+              <xs:element name="MessageOpenDate" msprop:Generator_ColumnVarNameInTable="columnMessageOpenDate" msprop:Generator_ColumnPropNameInRow="MessageOpenDate" msprop:Generator_ColumnPropNameInTable="MessageOpenDateColumn" msprop:Generator_UserColumnName="MessageOpenDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaffingAction" msprop:Generator_TableClassName="StaffingActionDataTable" msprop:Generator_TableVarName="tableStaffingAction" msprop:Generator_TablePropName="StaffingAction" msprop:Generator_RowDeletingName="StaffingActionRowDeleting" msprop:Generator_RowChangingName="StaffingActionRowChanging" msprop:Generator_RowEvHandlerName="StaffingActionRowChangeEventHandler" msprop:Generator_RowDeletedName="StaffingActionRowDeleted" msprop:Generator_UserTableName="StaffingAction" msprop:Generator_RowChangedName="StaffingActionRowChanged" msprop:Generator_RowEvArgName="StaffingActionRowChangeEvent" msprop:Generator_RowClassName="StaffingActionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StaffingActionGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnStaffingActionGUID" msprop:Generator_ColumnPropNameInRow="StaffingActionGUID" msprop:Generator_ColumnPropNameInTable="StaffingActionGUIDColumn" msprop:Generator_UserColumnName="StaffingActionGUID" type="xs:string" />
+              <xs:element name="ActionTypeConfigChoiceID" msprop:Generator_ColumnVarNameInTable="columnActionTypeConfigChoiceID" msprop:Generator_ColumnPropNameInRow="ActionTypeConfigChoiceID" msprop:Generator_ColumnPropNameInTable="ActionTypeConfigChoiceIDColumn" msprop:Generator_UserColumnName="ActionTypeConfigChoiceID" type="xs:int" />
+              <xs:element name="ActionTypeComments" msprop:Generator_ColumnVarNameInTable="columnActionTypeComments" msprop:Generator_ColumnPropNameInRow="ActionTypeComments" msprop:Generator_ColumnPropNameInTable="ActionTypeCommentsColumn" msprop:Generator_UserColumnName="ActionTypeComments" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StartDateTime" msprop:Generator_ColumnVarNameInTable="columnStartDateTime" msprop:Generator_ColumnPropNameInRow="StartDateTime" msprop:Generator_ColumnPropNameInTable="StartDateTimeColumn" msprop:Generator_UserColumnName="StartDateTime" type="xs:dateTime" />
+              <xs:element name="EndDateTime" msprop:Generator_ColumnVarNameInTable="columnEndDateTime" msprop:Generator_ColumnPropNameInRow="EndDateTime" msprop:Generator_ColumnPropNameInTable="EndDateTimeColumn" msprop:Generator_UserColumnName="EndDateTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UserGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnUserGUID" msprop:Generator_ColumnPropNameInRow="UserGUID" msprop:Generator_ColumnPropNameInTable="UserGUIDColumn" msprop:Generator_UserColumnName="UserGUID" type="xs:string" />
+              <xs:element name="IsComplete" msprop:Generator_ColumnVarNameInTable="columnIsComplete" msprop:Generator_ColumnPropNameInRow="IsComplete" msprop:Generator_ColumnPropNameInTable="IsCompleteColumn" msprop:Generator_UserColumnName="IsComplete" type="xs:boolean" />
+              <xs:element name="Subject" msprop:Generator_ColumnVarNameInTable="columnSubject" msprop:Generator_ColumnPropNameInRow="Subject" msprop:Generator_ColumnPropNameInTable="SubjectColumn" msprop:Generator_UserColumnName="Subject" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AllDayEvent" msprop:Generator_ColumnVarNameInTable="columnAllDayEvent" msprop:Generator_ColumnPropNameInRow="AllDayEvent" msprop:Generator_ColumnPropNameInTable="AllDayEventColumn" msprop:Generator_UserColumnName="AllDayEvent" type="xs:boolean" />
+              <xs:element name="OriginalStartDateTime" msprop:Generator_ColumnVarNameInTable="columnOriginalStartDateTime" msprop:Generator_ColumnPropNameInRow="OriginalStartDateTime" msprop:Generator_ColumnPropNameInTable="OriginalStartDateTimeColumn" msprop:Generator_UserColumnName="OriginalStartDateTime" type="xs:dateTime" />
+              <xs:element name="RecurrenceGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnRecurrenceGUID" msprop:Generator_ColumnPropNameInRow="RecurrenceGUID" msprop:Generator_ColumnPropNameInTable="RecurrenceGUIDColumn" msprop:Generator_UserColumnName="RecurrenceGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="Recurrence" msprop:Generator_ColumnVarNameInTable="columnRecurrence" msprop:Generator_ColumnPropNameInRow="Recurrence" msprop:Generator_ColumnPropNameInTable="RecurrenceColumn" msprop:Generator_UserColumnName="Recurrence" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ReminderEnabled" msprop:Generator_ColumnVarNameInTable="columnReminderEnabled" msprop:Generator_ColumnPropNameInRow="ReminderEnabled" msprop:Generator_ColumnPropNameInTable="ReminderEnabledColumn" msprop:Generator_UserColumnName="ReminderEnabled" type="xs:boolean" />
+              <xs:element name="ReminderInterval" msprop:Generator_ColumnVarNameInTable="columnReminderInterval" msprop:Generator_ColumnPropNameInRow="ReminderInterval" msprop:Generator_ColumnPropNameInTable="ReminderIntervalColumn" msprop:Generator_UserColumnName="ReminderInterval" type="xs:int" />
+              <xs:element name="ReminderUnits" msprop:Generator_ColumnVarNameInTable="columnReminderUnits" msprop:Generator_ColumnPropNameInRow="ReminderUnits" msprop:Generator_ColumnPropNameInTable="ReminderUnitsColumn" msprop:Generator_UserColumnName="ReminderUnits" type="xs:int" />
+              <xs:element name="AllProperties" msprop:Generator_ColumnVarNameInTable="columnAllProperties" msprop:Generator_ColumnPropNameInRow="AllProperties" msprop:Generator_ColumnPropNameInTable="AllPropertiesColumn" msprop:Generator_UserColumnName="AllProperties" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" msprop:Generator_UserColumnName="Location" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExternalID" msprop:Generator_ColumnVarNameInTable="columnExternalID" msprop:Generator_ColumnPropNameInRow="ExternalID" msprop:Generator_ColumnPropNameInTable="ExternalIDColumn" msprop:Generator_UserColumnName="ExternalID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsSharedAppointment" msprop:Generator_ColumnVarNameInTable="columnIsSharedAppointment" msprop:Generator_ColumnPropNameInRow="IsSharedAppointment" msprop:Generator_ColumnPropNameInTable="IsSharedAppointmentColumn" msprop:Generator_UserColumnName="IsSharedAppointment" type="xs:boolean" />
+              <xs:element name="ExternalDB" msprop:Generator_ColumnVarNameInTable="columnExternalDB" msprop:Generator_ColumnPropNameInRow="ExternalDB" msprop:Generator_ColumnPropNameInTable="ExternalDBColumn" msprop:Generator_UserColumnName="ExternalDB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MessageTypeConfigSystemChoiceID" msprop:Generator_ColumnVarNameInTable="columnMessageTypeConfigSystemChoiceID" msprop:Generator_ColumnPropNameInRow="MessageTypeConfigSystemChoiceID" msprop:Generator_ColumnPropNameInTable="MessageTypeConfigSystemChoiceIDColumn" msprop:Generator_UserColumnName="MessageTypeConfigSystemChoiceID" type="xs:int" />
+              <xs:element name="ExternalLabel" msprop:Generator_ColumnVarNameInTable="columnExternalLabel" msprop:Generator_ColumnPropNameInRow="ExternalLabel" msprop:Generator_ColumnPropNameInTable="ExternalLabelColumn" msprop:Generator_UserColumnName="ExternalLabel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParentGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnParentGUID" msprop:Generator_ColumnPropNameInRow="ParentGUID" msprop:Generator_ColumnPropNameInTable="ParentGUIDColumn" msprop:Generator_UserColumnName="ParentGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="RootStaffingActionGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnRootStaffingActionGUID" msprop:Generator_ColumnPropNameInRow="RootStaffingActionGUID" msprop:Generator_ColumnPropNameInTable="RootStaffingActionGUIDColumn" msprop:Generator_UserColumnName="RootStaffingActionGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="ModifiedDate" msprop:Generator_ColumnVarNameInTable="columnModifiedDate" msprop:Generator_ColumnPropNameInRow="ModifiedDate" msprop:Generator_ColumnPropNameInTable="ModifiedDateColumn" msprop:Generator_UserColumnName="ModifiedDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:StaffingActionFK" />
+      <xs:field xpath="mstns:StaffingActionGUID" />
+      <xs:field xpath="mstns:FKGUID" />
+    </xs:unique>
+    <xs:unique name="StaffingAction_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StaffingAction" />
+      <xs:field xpath="mstns:StaffingActionGUID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

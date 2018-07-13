@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SendGridDS" targetNamespace="http://tempuri.org/SendGridDS.xsd" xmlns:mstns="http://tempuri.org/SendGridDS.xsd" xmlns="http://tempuri.org/SendGridDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="Avionte_ParallelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Avionte_ParallelConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.Avionte_ParallelConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SendGridDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SendGridDS" msprop:Generator_UserDSName="SendGridDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QPS_SendGrid" msprop:Generator_TableClassName="QPS_SendGridDataTable" msprop:Generator_TableVarName="tableQPS_SendGrid" msprop:Generator_TablePropName="QPS_SendGrid" msprop:Generator_RowDeletingName="QPS_SendGridRowDeleting" msprop:Generator_RowChangingName="QPS_SendGridRowChanging" msprop:Generator_RowEvHandlerName="QPS_SendGridRowChangeEventHandler" msprop:Generator_RowDeletedName="QPS_SendGridRowDeleted" msprop:Generator_UserTableName="QPS_SendGrid" msprop:Generator_RowChangedName="QPS_SendGridRowChanged" msprop:Generator_RowEvArgName="QPS_SendGridRowChangeEvent" msprop:Generator_RowClassName="QPS_SendGridRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SendGridGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnSendGridGUID" msprop:Generator_ColumnPropNameInRow="SendGridGUID" msprop:Generator_ColumnPropNameInTable="SendGridGUIDColumn" msprop:Generator_UserColumnName="SendGridGUID" type="xs:string" />
+              <xs:element name="SendGridID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnSendGridID" msprop:Generator_ColumnPropNameInRow="SendGridID" msprop:Generator_ColumnPropNameInTable="SendGridIDColumn" msprop:Generator_UserColumnName="SendGridID" type="xs:int" />
+              <xs:element name="sg_Email" msprop:Generator_ColumnVarNameInTable="columnsg_Email" msprop:Generator_ColumnPropNameInRow="sg_Email" msprop:Generator_ColumnPropNameInTable="sg_EmailColumn" msprop:Generator_UserColumnName="sg_Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Timestamp" msprop:Generator_ColumnVarNameInTable="columnsg_Timestamp" msprop:Generator_ColumnPropNameInRow="sg_Timestamp" msprop:Generator_ColumnPropNameInTable="sg_TimestampColumn" msprop:Generator_UserColumnName="sg_Timestamp" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Smtp_Id" msprop:Generator_ColumnVarNameInTable="columnsg_Smtp_Id" msprop:Generator_ColumnPropNameInRow="sg_Smtp_Id" msprop:Generator_ColumnPropNameInTable="sg_Smtp_IdColumn" msprop:Generator_UserColumnName="sg_Smtp_Id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Event" msprop:Generator_ColumnVarNameInTable="columnsg_Event" msprop:Generator_ColumnPropNameInRow="sg_Event" msprop:Generator_ColumnPropNameInTable="sg_EventColumn" msprop:Generator_UserColumnName="sg_Event" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Category" msprop:Generator_ColumnVarNameInTable="columnsg_Category" msprop:Generator_ColumnPropNameInRow="sg_Category" msprop:Generator_ColumnPropNameInTable="sg_CategoryColumn" msprop:Generator_UserColumnName="sg_Category" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Event_Id" msprop:Generator_ColumnVarNameInTable="columnsg_Event_Id" msprop:Generator_ColumnPropNameInRow="sg_Event_Id" msprop:Generator_ColumnPropNameInTable="sg_Event_IdColumn" msprop:Generator_UserColumnName="sg_Event_Id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Message_Id" msprop:Generator_ColumnVarNameInTable="columnsg_Message_Id" msprop:Generator_ColumnPropNameInRow="sg_Message_Id" msprop:Generator_ColumnPropNameInTable="sg_Message_IdColumn" msprop:Generator_UserColumnName="sg_Message_Id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Response" msprop:Generator_ColumnVarNameInTable="columnsg_Response" msprop:Generator_ColumnPropNameInRow="sg_Response" msprop:Generator_ColumnPropNameInTable="sg_ResponseColumn" msprop:Generator_UserColumnName="sg_Response" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Attempt" msprop:Generator_ColumnVarNameInTable="columnsg_Attempt" msprop:Generator_ColumnPropNameInRow="sg_Attempt" msprop:Generator_ColumnPropNameInTable="sg_AttemptColumn" msprop:Generator_UserColumnName="sg_Attempt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Useragent" msprop:Generator_ColumnVarNameInTable="columnsg_Useragent" msprop:Generator_ColumnPropNameInRow="sg_Useragent" msprop:Generator_ColumnPropNameInTable="sg_UseragentColumn" msprop:Generator_UserColumnName="sg_Useragent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_IP" msprop:Generator_ColumnVarNameInTable="columnsg_IP" msprop:Generator_ColumnPropNameInRow="sg_IP" msprop:Generator_ColumnPropNameInTable="sg_IPColumn" msprop:Generator_UserColumnName="sg_IP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_URL" msprop:Generator_ColumnVarNameInTable="columnsg_URL" msprop:Generator_ColumnPropNameInRow="sg_URL" msprop:Generator_ColumnPropNameInTable="sg_URLColumn" msprop:Generator_UserColumnName="sg_URL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Status" msprop:Generator_ColumnVarNameInTable="columnsg_Status" msprop:Generator_ColumnPropNameInRow="sg_Status" msprop:Generator_ColumnPropNameInTable="sg_StatusColumn" msprop:Generator_UserColumnName="sg_Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sg_Asm_Group_Id" msprop:Generator_ColumnVarNameInTable="columnsg_Asm_Group_Id" msprop:Generator_ColumnPropNameInRow="sg_Asm_Group_Id" msprop:Generator_ColumnPropNameInTable="sg_Asm_Group_IdColumn" msprop:Generator_UserColumnName="sg_Asm_Group_Id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnUserGUID" msprop:Generator_ColumnPropNameInRow="UserGUID" msprop:Generator_ColumnPropNameInTable="UserGUIDColumn" msprop:Generator_UserColumnName="UserGUID" type="xs:string" />
+              <xs:element name="DateEntered" msprop:Generator_ColumnVarNameInTable="columnDateEntered" msprop:Generator_ColumnPropNameInRow="DateEntered" msprop:Generator_ColumnPropNameInTable="DateEnteredColumn" msprop:Generator_UserColumnName="DateEntered" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:QPS_SendGrid" />
+      <xs:field xpath="mstns:SendGridGUID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

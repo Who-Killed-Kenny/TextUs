@@ -78,10 +78,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2016 08:46:43</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>03/03/2017 12:42:48</publishTime>
+      <publishTime>12/13/2017 10:27:24</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>03/03/2017 12:42:48</publishTime>
+      <publishTime>12/13/2017 10:27:24</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.WebHooks.Common.dll">
       <publishTime>03/09/2016 08:50:05</publishTime>
@@ -102,7 +102,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2016 08:46:37</publishTime>
     </File>
     <File Include="bin/QPS.Email.dll">
-      <publishTime>10/17/2016 09:50:48</publishTime>
+      <publishTime>10/04/2017 16:05:14</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>03/09/2016 08:46:44</publishTime>
@@ -171,10 +171,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2016 08:46:40</publishTime>
     </File>
     <File Include="bin/TextUs.dll">
-      <publishTime>03/03/2017 12:42:42</publishTime>
+      <publishTime>12/13/2017 10:27:14</publishTime>
     </File>
     <File Include="bin/TextUs.pdb">
-      <publishTime>03/03/2017 12:42:42</publishTime>
+      <publishTime>12/13/2017 10:27:14</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>03/09/2016 08:46:43</publishTime>
@@ -231,7 +231,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2016 08:50:06</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>03/03/2017 12:42:42</publishTime>
+      <publishTime>12/13/2017 10:27:15</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>03/09/2016 08:46:36</publishTime>
@@ -276,7 +276,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2016 08:46:34</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/03/2017 12:42:42</publishTime>
+      <publishTime>12/13/2017 10:27:14</publishTime>
     </File>
   </ItemGroup>
 </Project>

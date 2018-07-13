@@ -15,7 +15,7 @@
       <Value Profile="(Default)">QPS Internal</Value>
     </Setting>
     <Setting Name="MailErrorsToAddress" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">TFeldkamp</Value>
+      <Value Profile="(Default)">TFeldkamp_Bogus</Value>
     </Setting>
     <Setting Name="MailErrorsToAddress2" Type="System.String" Scope="Application">
       <Value Profile="(Default)">KLiebergen</Value>
@@ -30,21 +30,21 @@
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="SystemLogPath" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">\\QPSHQFS01\GroupFolders\Departments\TAC\Integrations\TextUs\Logs</Value>
+      <Value Profile="(Default)">\\QPSstaff.com\Data\GroupFolders\Departments\TAC\Integrations\TextUs\Logs</Value>
     </Setting>
     <Setting Name="TraceLogName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">TextUs_Trace {0}.log</Value>
     </Setting>
     <Setting Name="UseTestDB" Type="System.Boolean" Scope="Application">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="TestDB_Connection" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=QPSAGATSDEV01;Initial Catalog=Avionte_Parallel;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=True&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=QPSCLSQLDEV01;Integrated Security=True;Initial Catalog=Avionte_Parallel;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=True&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=QPSAGATSDEV01;Initial Catalog=Avionte_Parallel;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=True</Value>
+      <Value Profile="(Default)">Data Source=QPSCLSQLDEV01;Integrated Security=True;Initial Catalog=Avionte_Parallel;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=True</Value>
     </Setting>
     <Setting Name="ProdDB_Connection" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;

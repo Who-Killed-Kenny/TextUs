@@ -61,7 +61,7 @@ namespace TextUs.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("TFeldkamp")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TFeldkamp_Bogus")]
         public string MailErrorsToAddress {
             get {
                 return ((string)(this["MailErrorsToAddress"]));
@@ -106,7 +106,7 @@ namespace TextUs.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\QPSHQFS01\\GroupFolders\\Departments\\TAC\\Integrations\\TextUs\\Logs")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\QPSstaff.com\\Data\\GroupFolders\\Departments\\TAC\\Integrations\\TextUs\\Logs")]
         public string SystemLogPath {
             get {
                 return ((string)(this["SystemLogPath"]));
@@ -124,7 +124,7 @@ namespace TextUs.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool UseTestDB {
             get {
                 return ((bool)(this["UseTestDB"]));
@@ -134,8 +134,8 @@ namespace TextUs.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=QPSAGATSDEV01;Initial Catalog=Avionte_Parallel;Integrated Security=Tr" +
-            "ue;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationInte" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=QPSCLSQLDEV01;Integrated Security=True;Initial Catalog=Avionte_Parall" +
+            "el;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationInte" +
             "nt=ReadWrite;MultiSubnetFailover=True")]
         public string TestDB_Connection {
             get {
